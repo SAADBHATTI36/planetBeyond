@@ -1,0 +1,461 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Titillium Web';
+    scroll-behavior: smooth;
+}
+a:hover{
+    text-decoration: none;
+
+}
+html{
+    overflow: hidden;
+}
+.text-white{
+    color: #ffffff;
+}
+.container-fluid {
+    max-height: 100vh;
+    overflow-y: scroll;
+    scroll-snap-type: y mandatory;
+  }
+  
+.panel {
+    scroll-snap-align: start;
+    height: 100vh;
+}
+
+#logo{
+    width: 51.03px;   
+}
+.te-mr-120{
+    margin-left: 120px;
+}
+#brand{
+    width: 172.92px;
+}
+.te-h-41{
+    height: 41.03px;
+}
+/* Take a tour */
+.te-btn-nav{
+    /* Rectangle 48 */
+    display: inline-block;
+    padding: 15px 33px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 0.22em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.te-w-border{
+    border: 1px solid #FFFFFF;
+}
+.te-btn-appointment{
+    /* Rectangle 51 */
+    background: #E35744;
+    padding: 16px 33px;
+}
+.te-gap-5{
+    gap: 5px;
+}
+.header{
+    background: url('images/galaxy-night-view.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.hero-section{
+    min-height: 100%;
+    background: linear-gradient(180deg, rgba(18, 52, 84, 0) 0%, #123454c9 85.58%);
+}
+.hero-menu a{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+.hero-heading{
+    font-weight: 700;
+    font-size: 8.5vw;
+    white-space: nowrap;
+    text-align: center;
+    letter-spacing: 0.19em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-size-adjust: 100%;
+    margin-left: -8px;
+}
+.hero-text{
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 112.6%;
+    /* identical to box height, or 23px */
+
+    text-align: center;
+    letter-spacing: 0.685em;
+
+    color: #FFFFFF;
+}
+.scroll-down{
+    width: 148px;
+    height: 148px;
+    background: linear-gradient(180deg, rgba(18, 52, 84, 0) 0%, #123454 85.58%);
+    opacity: 0.7;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    letter-spacing: 0.22em;
+    text-transform: uppercase;
+    border-radius: 50%;
+    color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    gap: 5px;
+}
+
+/* nav model */
+@media (max-width: 767px) {
+    .modal-fullscreen-xs-down {
+      padding: 0 !important;
+    }
+    .modal-fullscreen-xs-down .modal-dialog {
+      margin: 0;
+      width: 100%;
+      height: 100%;
+      padding: 0;
+    }
+    .modal-fullscreen-xs-down .modal-content {
+      height: auto;
+      min-height: 100%;
+      border: 0 none;
+      border-radius: 0;
+    }
+  }
+  @media (max-width: 991px) {
+    .modal-fullscreen-sm-down {
+      padding: 0 !important;
+    }
+    .modal-fullscreen-sm-down .modal-dialog {
+      margin: 0;
+      width: 100%;
+      height: 100%;
+      padding: 0;
+    }
+    .modal-fullscreen-sm-down .modal-content {
+      height: auto;
+      min-height: 100%;
+      border: 0 none;
+      border-radius: 0;
+    }
+  }
+  @media (max-width: 1199px) {
+    .modal-fullscreen-md-down {
+      padding: 0 !important;
+    }
+    .modal-fullscreen-md-down .modal-dialog {
+      margin: 0;
+      width: 100%;
+      height: 100%;
+      padding: 0;
+    }
+    .modal-fullscreen-md-down .modal-content {
+      height: auto;
+      min-height: 100%;
+      border: 0 none;
+      border-radius: 0;
+    }
+  }
+  .modal-fullscreen {
+    padding: 0 !important;
+  }
+  .modal-fullscreen .modal-dialog {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+  }
+  .modal-fullscreen .modal-content {
+    height: auto;
+    min-height: 100%;
+    border: 0 none;
+    border-radius: 0;
+  }
+  @media (min-width: 992px){
+    .modal-lg {
+        max-width: 100%;
+    }
+  }
+  .modal-content {
+    background-color: #00000089 !important; 
+    background-image: url('images/galaxy-nature-menu.png');
+}
+.bg-overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(180deg, rgb(18 52 84 / 72%) 0%, #123454 85.58%);
+    opacity: 0.8;
+}
+.modal-header {
+    border-bottom: none !important;
+}
+
+.w-586px{
+  min-width: 586px;
+}
+.section-2-text{
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 180.6%;
+}
+.vmission{
+  position: absolute;
+  font-family: fantasy,'Titillium Web';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 112px;
+  line-height: 84.1%;
+  /* identical to box height, or 118px */
+  letter-spacing: 0.095em;
+  text-transform: uppercase;
+  color: #E35744;
+  opacity: 0.2;
+  top: 0px;
+  left: -58px;
+  white-space: nowrap;
+  z-index: -1;
+}
+.vision-text{
+  font-style: normal;
+  font-weight: 700;
+  font-size: 43px;
+  line-height: 65px;
+
+  color: #333333;
+}
+.explore-btn{
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  text-transform: uppercase;
+  color: #E35744;
+}
+.c-tile-carousel .heading_line-2{
+  color: #E35744;
+}
+.philosphy-section{
+  background-color: white;
+}
+.philosphy-section .philosphy-title h3{
+  font-weight: 700;
+  font-size: 90px;
+  line-height: 84.1%;
+  text-transform: uppercase;
+  font-family: 'Titillium Web';
+}
+.first-text-color{
+  color: #E35744;
+}
+.second-text-color{
+  color: #333333;
+}
+.philosphy-section-2{
+  font-family: 'Titillium Web';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 180.6%;
+  color: #333333;
+  margin-left: 175px;
+  margin-right: 52px;
+
+}
+body {
+  min-height: 100vh;
+}
+.slider {
+  position: relative;
+  width: 100%;
+
+  display: grid;
+  place-items: center;
+  overflow: hidden;
+}
+
+
+/*  IMPORTANT CODE BELOW */
+
+.slide-track {
+  width: calc(150px * 20);
+  display: flex;
+  animation: scroll 80s linear infinite;
+  justify-content: space-between;
+}
+
+
+
+.slide {
+  width: 150px;
+
+  display: grid;
+  place-items: center;
+  transition:0.5s;
+}
+/* .slide:hover{
+  transform:scale(0.8)
+} */
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0px);
+  }
+  100% {
+    transform: translateX(calc(-150px * 10));
+  }
+}
+
+
+
+@media screen and (max-width: 768px) {
+  .slide-track {
+    width: calc(80px * 20);
+  }
+
+  
+
+  .slide {
+    width: 80px;
+  }
+
+  @keyframes scroll {
+    0% {
+      transform: translateX(0px);
+    }
+    100% {
+      transform: translateX(calc(-80px * 10));
+    }
+  }
+
+  
+}
+.slide-track .slide img{
+  height: 80px;
+}
+.testimonial-heading{
+  position: absolute;
+  top: 0px; 
+  left: 0px;
+  font-family: 'Titillium Web';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 125px;
+  line-height: 84.6%;
+  /* or 118px */
+  letter-spacing: 0.095em;
+  text-transform: uppercase;
+  color: #E35744;
+  opacity: 0.2;
+}
+.h-110px{
+  height:110px;
+}
+.testimonial-sub-heading{
+  font-family: 'Titillium Web';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 56px;
+  text-align: center;
+
+  color: #333333;
+}
+.owl-carousel .item::before{
+  display: block;
+  content: '“';
+  font-family: 'Rammetto One';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 70px;
+  line-height: 84.6%;
+  /* or 59px */
+
+  letter-spacing: 0.095em;
+  text-transform: uppercase;
+  float: left;
+  color: #E35744;
+}
+.owl-carousel .item > .row{
+  border-top: 3px solid #000000;
+  padding-top: 10px;
+}
+.owl-carousel .item .text{
+  font-family: 'Titillium Web';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 20px;
+  /* or 25px */
+
+
+  color: #333333;
+
+  opacity: 0.8;
+}
+
+.owl-carousel .item .text::first-letter{
+  font-family: 'Titillium Web';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 40px;
+  /* identical to box height, or 77px */
+  color: #333333;
+  float: left;
+}
+.testimonial-image img{
+  border-radius: 20px;
+}
+.owl-nav .owl-prev,.owl-nav .owl-next{
+  outline: 2px solid #E35744 !important;
+
+}
+.owl-nav .owl-prev span,.owl-nav .owl-next span{
+  font-size: 39px;
+  font-weight: 100;
+}
+.owl-nav .owl-prev:focus,.owl-nav .owl-next:focus{
+  outline: 2.4px solid #E35744 !important;
+}
+.owl-nav .owl-prev:focus span,.owl-nav .owl-next:focus span{
+  font-weight: 500;
+}
+.footer-bg-overlay{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #E35744;
+  opacity: 0.8;
+}
+.footer-para{
+  font-family: 'Titillium Web';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19px;
+}

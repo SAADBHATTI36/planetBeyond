@@ -1,0 +1,118 @@
+.title_content {
+  display: block;
+  margin: 0 auto 50px;
+  padding: 0 5vw;
+  position: relative;
+  text-align: center;
+}
+
+@media (min-width: 1025px) {
+  .title_content {
+    margin-bottom: 85px;
+    padding: 0 40px;
+  }
+}
+
+.title_heading {
+  font-family: 'owners-xxwide';
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  font-size: calc(34px + 51 * ((100vw - 420px) / 860));
+  font-weight: 400;
+  justify-content: center;
+  letter-spacing: -.035em;
+  line-height: .875em;
+  margin-top: 30px;
+  position: relative;
+  text-transform: uppercase;
+  z-index: 1;
+}
+
+@media (min-width: 1280px) {
+  .title_heading {
+    font-size: 85px;
+  }
+}
+
+.title_backdrop {
+  font-family: 'owners-xxwide';
+  color: rgba(255,255,255,.05);
+  letter-spacing: -.025em;
+  margin: 0;
+  position: absolute;
+  top: 20px;
+  left: calc(50% - 820px);
+  text-align: center;
+  z-index: 0;
+}
+
+.c_gap {
+  grid-gap: 40px;
+}
+
+.c_title {
+  color: #eae5d0;
+  font-size: calc(1rem + 12 * ((100vw - 26.25rem) / 860));
+  font-weight: 400;
+  letter-spacing: -.035em;
+  line-height: .875em;
+  text-align: center;
+  text-transform: uppercase;
+  width: 100%;
+  font-family: 'owners-xwide';
+  padding-bottom: 20px;
+}
+
+@media (min-width: 1280px) {
+  .c_title {
+    font-size: 28px;
+  }
+}
+
+.c_card {
+  background: rgba(34,26,45,.5);
+  border: 1px solid #372b45;
+  border-radius: 10px;
+  box-shadow: 0 72px 74px -20px rgb(0 0 0 / 28%);
+}
+
+.c_card-line {
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+}
+
+.c_card-img {
+  width: 25px;
+  height: 25px;
+  margin-right: 1.5rem;
+}
+
+.c_line-first {
+  color: #eae5d0;
+  font-size: calc(14px + 5 * ((100vw - 420px) / 860));
+  font-family: 'Space Grotesk';
+  font-weight: 800;
+  text-align: left;
+}
+
+.c_line-second {
+  color: #eae5d0;
+  font-size: calc(14px + 3 * ((100vw - 420px) / 860));
+  font-family: 'Space Grotesk';
+  text-align: left;
+}
+
+@media (min-width: 1280px) {
+  .c_line-first {
+    font-size: 19px;
+  }
+  .c_line-second {
+    font-size: 17px;
+  }
+}
+
+.c_border-bottom {
+  border-bottom: 1px solid #372b45;
+}
